@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:padding="10dp"
+        android:text="Lập trình sự kiện "
+        android:textColor="@color/white"
+        android:background="@color/purple_500"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:weightSum="10"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="2"
+            android:id="@+id/txtA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/SoA"
+            android:textSize="20sp" />
+        <EditText
+            android:layout_weight="8"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:hint="Nhập số A" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:weightSum="10"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="2"
+            android:id="@+id/txtB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/SoB"
+            android:textSize="20sp" />
+        <EditText
+            android:layout_weight="8"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:hint="Nhập số B" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txtHT"
+            android:textColor="@color/black"
+            android:background="@color/teal_200"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btn_tong"
+            android:layout_marginTop="10dp"
+            android:text="TỔNG 2 SỐ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cornerRadius="0dp" />
+
+        <Button
+            android:id="@+id/btn_hieu"
+            android:text="HIỆU 2 SỐ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cornerRadius="0dp" />
+        <Button
+            android:id="@+id/btn_tich"
+            android:text="TÍCH 2 SỐ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cornerRadius="0dp" />
+        <Button
+            android:id="@+id/btn_thuong"
+            android:text="THƯƠNG 2 SỐ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cornerRadius="0dp" />
+        <Button
+            android:id="@+id/btn_ucln"
+            android:text="ƯỚC CHUNG LỚN NHẤT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cornerRadius="0dp" />
+        <Button
+            android:id="@+id/btn_thoat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="THOÁT CHƯƠNG TRÌNH"
+            android:textColor="@color/red"
+            app:cornerRadius="0dp" />
+    </LinearLayout>
+
+</LinearLayout>

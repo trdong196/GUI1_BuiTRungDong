@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GUI1</string>
+    <string name="SoA">Số A :</string>
+    <string name="SoB">Số B :</string>
+</resources>
